@@ -1,0 +1,7 @@
+name: datacircle
+title: Datacircle
+description: "Find the best GTM APIs: four agent tools on Datacircle's open API (no key) that list every API, show who is best for each, search every plan and give a provider's ranks."
+version: 0.1.0
+settings_sections: []
+per_project_config: false
+per_agent_config: false
