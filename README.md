@@ -1,6 +1,8 @@
 # Datacircle for Agent Zero
 
-Find the best GTM APIs. We benchmark all the GTM APIs and we put the results on our website: https://datacircle.dev
+Find the best GTM APIs. We benchmark all the GTM APIs and we put the results on our website.
+
+Our website: https://datacircle.dev
 
 This Agent Zero plugin gives your agent four tools on Datacircle's open API, https://api.datacircle.dev/v1. You need no key and no account.
 
@@ -13,9 +15,9 @@ This Agent Zero plugin gives your agent four tools on Datacircle's open API, htt
 
 ## Install
 
-In Agent Zero, open the plugin installer, pick the Git tab and give this repository's address: `https://github.com/waynehamadi/agent-zero-datacircle`.
+In Agent Zero, open the plugin installer, pick the Git tab and paste this address: `https://github.com/waynehamadi/agent-zero-datacircle`.
 
-Or copy this repository to `usr/plugins/datacircle/`.
+Or copy the files of this repository into the folder `usr/plugins/datacircle/` in Agent Zero.
 
 Then ask your agent, for example: "Which email finder API is best for under $5 per 1,000?"
 
@@ -25,18 +27,18 @@ Each tool call makes one HTTPS GET request to https://api.datacircle.dev/v1 and 
 
 ## Remove
 
-Disable the plugin or delete `usr/plugins/datacircle/`. The plugin leaves nothing outside its own folder.
+Disable the plugin or delete `usr/plugins/datacircle/`. The plugin writes nothing outside that folder.
 
 ## Tests
 
-The tests live in `dev/`, outside the plugin's runtime files. Each test makes real calls to the API.
+The tests are in `dev/`, outside the plugin's runtime files. Each test calls the real API.
 
 ```
 pip install -r dev/requirements-dev.txt
 pytest -c dev/pytest.ini
 ```
 
-Tested on Agent Zero v2.15.
+We tested the plugin on Agent Zero v2.15.
 
 ## Links
 
